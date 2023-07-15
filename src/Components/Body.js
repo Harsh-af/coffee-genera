@@ -44,7 +44,7 @@ function App() {
           >
             BY HARSH KARANWAL
             <br></br>{" "}
-            <span style={{ marginLeft: "7rem" }}>& KRITI JAIN</span>
+            //<span style={{ marginLeft: "7rem" }}>& KRITI JAIN</span>
           </p>
         </div>
       </div>
