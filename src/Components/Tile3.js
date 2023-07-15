@@ -49,7 +49,7 @@ function App() {
         overflow: "hidden",
       }}
     >
-      <div style={{ paddingLeft: "10rem" }}>
+      <div style={{ paddingLeft: "10rem", marginTop: "15vh" }}>
         <h1
           style={{
             fontFamily: "Restrain ",

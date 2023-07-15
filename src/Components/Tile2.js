@@ -61,7 +61,7 @@ function App() {
           //   marginLeft: "5rem",
         }}
       ></img>
-      <div style={{ paddingLeft: "10rem" }}>
+      <div style={{ paddingLeft: "10rem", marginTop: "15vh" }}>
         <h1
           style={{
             fontFamily: "Restrain ",

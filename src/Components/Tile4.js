@@ -57,10 +57,16 @@ function App() {
         style={{
           objectFit: "contain",
           aspectRatio: "1/1",
-          //   marginLeft: "5rem",
+          width: "40vw",
+          height: "80vh",
         }}
       ></img>
-      <div style={{ paddingLeft: "10rem" }}>
+      <div
+        style={{
+          paddingLeft: "10rem",
+          marginTop: "15vh",
+        }}
+      >
         <h1
           style={{
             fontFamily: "Restrain ",
