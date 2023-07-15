@@ -1,0 +1,80 @@
+.head {
+  position: relative;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(43, 38, 38);
+  transition: all 1s ease;
+}
+.head:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.app-bar {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem 0rem 0rem;
+  min-height: 8vh;
+  color: white;
+  overflow: hidden;
+}
+
+.mobile-menu {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mobile-menu-items {
+  display: none;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .mobile-menu-items {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .mobile-menu-items a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "poppinsmedium";
+    font-size: 1.5rem;
+  }
+
+  .menu-wrapper {
+    display: none;
+  }
+}

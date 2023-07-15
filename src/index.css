@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "visby thin";
+  src: url(./Fonts/VisbyThin.otf);
+}
+
+@font-face {
+  font-family: "visby light";
+  src: url(./Fonts/VisbyLight.otf);
+}
+
+@font-face {
+  font-family: "visby Regular";
+  src: url(./Fonts/VisbyRegular.otf);
+}
+
+@font-face {
+  font-family: "visby medium";
+  src: url(./Fonts/VisbyMedium.otf);
+}
+
+@font-face {
+  font-family: "visby semibold";
+  src: url(./Fonts/VisbySemibold.otf);
+}
+
+@font-face {
+  font-family: "visby bold";
+  src: url(./Fonts/VisbyBold.otf);
+}
+
+@font-face {
+  font-family: "visby extrabold";
+  src: url(./Fonts/VisbyExtrabold.otf);
+}
+
+@font-face {
+  font-family: "visby heavy";
+  src: url(./Fonts/VisbyHeavy.otf);
+}
+
+@font-face {
+  font-family: "Manbow lines";
+  src: url(./Fonts/manbowlines.ttf);
+}
+
+@font-face {
+  font-family: "Manbow circles";
+  src: url(./Fonts/manbow-spots.otf);
+}
+
+@font-face {
+  font-family: "Manbow fill";
+  src: url(./Fonts/manbow-solid.otf);
+}
+
+@font-face {
+  font-family: "Manbow stripe";
+  src: url(./Fonts/manbow-stripe.otf);
+}
+
+@font-face {
+  font-family: "Manbow clear";
+  src: url(./Fonts/manbow-clear.otf);
+}
+
+@font-face {
+  font-family: "Qellia";
+  src: url(./Fonts/Qellia.otf);
+}
+
+@font-face {
+  font-family: "Restrain";
+  src: url(./Fonts/Restrain.otf);
+}
