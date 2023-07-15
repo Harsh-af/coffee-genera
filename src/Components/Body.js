@@ -43,7 +43,6 @@ function App() {
             }}
           >
             BY HARSH KARANWAL
-            <br></br> & SHREYAS PATIL
           </p>
         </div>
       </div>
