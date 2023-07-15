@@ -12,7 +12,7 @@ function App() {
           backgroundSize: "65vh",
           backgroundRepeat: "no-repeat",
           width: "100vw",
-          height: "100vh",
+          height: "90vh",
           // marginTop: "-60px",
         }}
       >
@@ -43,6 +43,8 @@ function App() {
             }}
           >
             BY HARSH KARANWAL
+            <br></br>{" "}
+            <span style={{ marginLeft: "7rem" }}>& SHREYAS PATIL</span>
           </p>
         </div>
       </div>

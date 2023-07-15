@@ -1,18 +1,39 @@
-.slide-image {
+.slideleft-image {
   opacity: 0;
   transform: translateX(20%);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.slide-in {
+.slideleft-in {
   opacity: 1;
   transform: translateX(0);
 }
 
+.slideright-image {
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.slideright-in {
+  opacity: 1;
+  transform: translateX(10%);
+}
+
 .tile1-text {
   font-family: visby light;
+  /* letter-spacing: 0.2px; */
   font-size: 20px;
   color: #bdb2a7;
+  text-align: justify;
+  padding-right: 5rem;
+}
+
+.tile2-text {
+  font-family: visby light;
+  /* letter-spacing: 0.2px; */
+  font-size: 20px;
+  color: #191512;
   text-align: justify;
   padding-right: 5rem;
 }

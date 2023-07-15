@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../App.css";
 import Bean from "../Images/graine-cafe.webp";
-import CoffeeCup from "../Images/coffee.png";
+import Latte from "../Images/Coffees/cappuchino.png";
 import "./CSS/body.css";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
     const handleIntersect = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("slideleft-in");
+          entry.target.classList.add("slideright-in");
         } else {
-          entry.target.classList.remove("slideleft-in");
+          entry.target.classList.remove("slideright-in");
         }
       });
     };
@@ -39,7 +39,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundColor: "#191512",
+        backgroundColor: "#bdb2a7",
         height: "90vh",
         width: "100vw",
         display: "flex",
@@ -49,18 +49,30 @@ function App() {
         overflow: "hidden",
       }}
     >
+      <img
+        src={Latte}
+        ref={imageRef}
+        alt="Sliding Image"
+        className="slideright-image"
+        style={{
+          width: "40vw",
+          objectFit: "contain",
+          aspectRatio: "1/1",
+          //   marginLeft: "5rem",
+        }}
+      ></img>
       <div style={{ paddingLeft: "10rem" }}>
         <h1
           style={{
             fontFamily: "Restrain ",
             fontWeight: 100,
             fontSize: "80px",
-            color: "#bdb2a7",
+            color: "#191512",
           }}
         >
-          Capulus Est<br></br> Delectamentum
+          Cappucchino
         </h1>
-        <p className="tile1-text">
+        <p className="tile2-text">
           The{" "}
           <span
             style={{
@@ -72,7 +84,7 @@ function App() {
           of dopamine and pleasant feelings that people often associate with
           their first cup of coffee in the morning. k
         </p>
-        <p className="tile1-text">
+        <p className="tile2-text">
           The passion for exceptional coffees continues to be transmitted in
           this centuries-old roasting workshop, a warm place that offers lively,
           vibrant coffee from the finest origins and always roasted according to
@@ -81,18 +93,6 @@ function App() {
           world.
         </p>
       </div>
-      <img
-        src={CoffeeCup}
-        ref={imageRef}
-        alt="Sliding Image"
-        className="slideleft-image"
-        style={{
-          width: "40vw",
-          objectFit: "contain",
-          aspectRatio: "1/1",
-          // marginLeft: "10rem",
-        }}
-      ></img>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../App.css";
 import Bean from "../Images/graine-cafe.webp";
-import CoffeeCup from "../Images/coffee.png";
+import CoffeeCup from "../Images/Coffees/iced-coffee.webp";
 import "./CSS/body.css";
 
 function App() {
@@ -58,7 +58,7 @@ function App() {
             color: "#bdb2a7",
           }}
         >
-          Capulus Est<br></br> Delectamentum
+          Iced Coffee
         </h1>
         <p className="tile1-text">
           The{" "}
@@ -90,7 +90,7 @@ function App() {
           width: "40vw",
           objectFit: "contain",
           aspectRatio: "1/1",
-          // marginLeft: "10rem",
+          marginTop: "4rem",
         }}
       ></img>
     </div>
