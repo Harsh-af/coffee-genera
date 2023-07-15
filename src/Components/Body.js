@@ -12,7 +12,7 @@ function App() {
           backgroundSize: "65vh",
           backgroundRepeat: "no-repeat",
           width: "100vw",
-          height: "90vh",
+          height: "100vh",
           // marginTop: "-60px",
         }}
       >
