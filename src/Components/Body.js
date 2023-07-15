@@ -42,9 +42,7 @@ function App() {
               color: "#191512",
             }}
           >
-            BY HARSH KARANWAL
-            <br></br>{" "}
-            //<span style={{ marginLeft: "7rem" }}>& KRITI JAIN</span>
+            BY HARSH KARANWALS
           </p>
         </div>
       </div>
