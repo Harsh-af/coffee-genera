@@ -42,7 +42,7 @@ function App() {
               color: "#191512",
             }}
           >
-            BY HARSH KARANWALS
+            BY HARSH KARANWAL
           </p>
         </div>
       </div>
