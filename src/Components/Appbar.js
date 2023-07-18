@@ -27,10 +27,11 @@ function ResponsiveAppBar() {
   }, []);
 
   const appBarStyle = {
-    backgroundImage: isScrolled
+    background: isScrolled
       ? "linear-gradient(to bottom, rgba(189, 178, 167,0.5), rgba(189, 178, 167,0.5))"
-      : "linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0,0))",
+      : "linear-gradient(to bottom, rgba(189, 178, 167,0.5), rgba(189, 178, 167,0.5))",
     backdropFilter: "blur(4px) ",
+    transition: "background 1s ease",
   };
   return (
     <>
