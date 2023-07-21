@@ -1,0 +1,129 @@
+.loader-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #bdb2a7;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.smoke-container {
+  width: 60px;
+  height: 50px;
+  margin-left: -17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smoke {
+  animation: 3s infinite alternate animate;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateX(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    filter: blur(0px);
+  }
+}
+
+.one {
+  margin-top: 10px;
+}
+.two {
+  margin-top: -10px;
+  animation-delay: 0.5s;
+}
+.three {
+  margin-top: 20px;
+  animation-delay: 1s;
+}
+
+.smokey-wave {
+  height: 35px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.smoke-high {
+  height: 50%;
+  width: 6px;
+  border-left: 1px solid #453422;
+  border-radius: 50%;
+}
+.smoke-low {
+  height: 50%;
+  width: 7px;
+  border-right: 1px solid #453422;
+  border-radius: 50%;
+}
+
+.mug-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mug {
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #7b440d;
+  border-top: 0px;
+  border-radius: 0px 0px 35px 35px;
+  position: relative;
+}
+
+.top {
+  position: relative;
+  top: -10px;
+  left: 0;
+  width: 70px;
+  height: 20px;
+  border: 3px solid #7b440d;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 50%;
+}
+
+.handle {
+  width: 15px;
+  height: 20px;
+  background-color: transparent;
+  border: 3px solid #7b440d;
+  border-left: 0px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.loader-text {
+  color: #453422;
+  margin-top: 15px;
+}

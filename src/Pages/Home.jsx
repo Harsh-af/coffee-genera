@@ -11,6 +11,7 @@ function Home() {
     // Scroll to the top when the component mounts
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div style={{ backgroundColor: "#bdb2a7" }}>
       <Appbar />
